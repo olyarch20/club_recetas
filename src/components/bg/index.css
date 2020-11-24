@@ -1,0 +1,26 @@
+
+.ro {
+    border: 1px solid red
+}
+
+.background{
+    height: 100vh;
+    max-width: 100%;
+    background-image: url(../../assets/img/breakfast-4234067_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Logo {
+    background-image: url(../../assets/img/Logo.png);
+}
+.background img {
+     flex-wrap: wrap;
+     max-width: 200px;
+     max-height: 200px;
+     float: right;
+     margin-right: 30px;
+     margin-top: 10px;
+     filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.5));
+
+}

@@ -1,0 +1,27 @@
+section {
+    border-color: white;
+}
+
+.img-cocina {
+    height: 400px;
+    margin: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../../assets/img/mujer-cocinando-cocina_119653-116.jpg);
+}
+.about-container {
+    display: flex;
+}
+.title-about {
+    text-align: left;
+    color: #84947B;
+    margin: 30px;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 36px;
+
+}
+.p-about {
+    text-align: justify;
+    margin: 30px;
+}

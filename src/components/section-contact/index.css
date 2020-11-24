@@ -1,0 +1,57 @@
+
+.contact-c {
+    background-color: #f8f8f8;
+}
+
+.title-contact {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #84947B;
+}
+.p-contact {
+    color: #84947B;
+    font-size: 18px;
+}
+.button-contact {
+    background-color: #84947B !important;
+    border-color: transparent;
+    color: white;
+    width: 130px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.social-media {
+    margin: 10px;
+    font-size: 30px;
+    color: #84947B;
+    cursor: pointer;
+}
+.face {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.img-contact {
+    height: 400px;
+    width: 90%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../../assets/img/notepad-3316997_640.jpg);
+}
+.contact-container {
+    display: flex;
+}
+.form-container {
+    max-width: 80%;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid #84947B;
+    padding: 20px;
+    background-color: white;
+}
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,26 @@
+
+
+.ro {
+    border: 1px solid red
+}
+
+#basic-navbar-nav {
+    justify-content: center;
+}
+.navbar-nav {
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+nav a {
+    width: 240px;
+}
+nav a:hover {
+    color: #AEB8A8 !important;
+    transition: color 0.4s ease 0s;
+    transition-property: color;
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+}
