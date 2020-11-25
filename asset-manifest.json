@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/club_recetas/static/css/main.d3725259.chunk.css",
+    "main.js": "/club_recetas/static/js/main.9485c786.chunk.js",
+    "main.js.map": "/club_recetas/static/js/main.9485c786.chunk.js.map",
+    "runtime-main.js": "/club_recetas/static/js/runtime-main.df5719ea.js",
+    "runtime-main.js.map": "/club_recetas/static/js/runtime-main.df5719ea.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/club_recetas/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.31207744.chunk.js": "/club_recetas/static/js/2.31207744.chunk.js",
+    "static/js/2.31207744.chunk.js.map": "/club_recetas/static/js/2.31207744.chunk.js.map",
+    "index.html": "/club_recetas/index.html",
+    "precache-manifest.5572f417cda795d7af8e0559609fc367.js": "/club_recetas/precache-manifest.5572f417cda795d7af8e0559609fc367.js",
+    "service-worker.js": "/club_recetas/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/club_recetas/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.d3725259.chunk.css.map": "/club_recetas/static/css/main.d3725259.chunk.css.map",
+    "static/js/2.31207744.chunk.js.LICENSE.txt": "/club_recetas/static/js/2.31207744.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/club_recetas/static/media/notepad-3316997_640.9e0949d0.jpg",
+    "static/media/r1.jpg": "/club_recetas/static/media/r1.827b2f5d.jpg",
+    "static/media/r10.jpg": "/club_recetas/static/media/r10.ffd2bf5e.jpg",
+    "static/media/r11.jpg": "/club_recetas/static/media/r11.23c0e3a2.jpg",
+    "static/media/r12.jpg": "/club_recetas/static/media/r12.a80249fb.jpg",
+    "static/media/r2.jpg": "/club_recetas/static/media/r2.1d4470f5.jpg",
+    "static/media/r3.jpg": "/club_recetas/static/media/r3.c25ee373.jpg",
+    "static/media/r4.jpg": "/club_recetas/static/media/r4.e2cdc333.jpg",
+    "static/media/r5.jpg": "/club_recetas/static/media/r5.8baec6f8.jpg",
+    "static/media/r6.jpg": "/club_recetas/static/media/r6.106d2a5a.jpg",
+    "static/media/r7.jpg": "/club_recetas/static/media/r7.3de3e979.jpg",
+    "static/media/r8.jpg": "/club_recetas/static/media/r8.c4a6f047.jpg",
+    "static/media/r9.jpg": "/club_recetas/static/media/r9.a68488ba.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.df5719ea.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.31207744.chunk.js",
+    "static/css/main.d3725259.chunk.css",
+    "static/js/main.9485c786.chunk.js"
+  ]
+}
