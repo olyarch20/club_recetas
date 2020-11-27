@@ -1,16 +1,18 @@
 import React from "react";
 import "./index.css";
+import {Row, Col} from "react-bootstrap";
+
 
 
 function About() {
     return <div>
         <h2 className={"title"}><i className="fas fa-mitten"/> SOBRE MI</h2>
         <hr className={"line"}/>
-        <div className={"about-container"}>
-            <div className={"col-md-6"}>
+        <Row className={"about-container"}>
+            <Col md={5}>
                 <div  className="img-cocina"/>
-            </div>
-                <div className={"col-md-6"}>
+            </Col>
+                <Col md={5}>
                     <h2 className={"title-about"}>
                         Soy teresa<br/>
                         aka señora Frost</h2>
@@ -26,8 +28,8 @@ function About() {
                         sobre su equipo y los servicios que brinda. Cuente a sus visitantes la historia de
                         cómo se le ocurrió la idea para su negocio y qué lo hace diferente de sus competidores.
                         Haga que su empresa se destaque y muestre a sus visitantes quién es usted.</p>
-                </div>
-        </div>
+                </Col>
+        </Row>
     </div>
 
 }

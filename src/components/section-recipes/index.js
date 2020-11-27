@@ -1,6 +1,7 @@
 import React from "react";
 import Pagination from 'react-bootstrap/Pagination'
 import "./index.css";
+import {Col, Row} from "react-bootstrap";
 
 
 const cardInfo = [
@@ -113,34 +114,38 @@ function Recipes() {
     return <section>
         <h2 className={"title"}><i className="fas fa-utensils utensils-i"/> TODAS LAS RECETAS</h2>
         <hr className={"line"}/>
-        <div className={"row card-container"}>
-            {cardInfo.map(card => <div className="card col-md-6 card-c">
-                <div className="card-recipe-container no-gutters">
-                    <div className={"img-recipe"} style={{
-                        backgroundImage: `url(${card.img})`
-                    }}>
-                    </div>
+        <Row className={" card-container"}>
+            {cardInfo.map(card => <Col md={5} key={card.titulo} className={"card-b"}>
+                <div className="card card-c">
+                    <div className="card-recipe-container no-gutters">
+                        <div className={"img-recipe"} style={{
+                            backgroundImage: `url(${card.img})`
+                        }}>
+                        </div>
 
-                    <div>
-                        <div className="card-body">
-                            <p className={"admin"}>Admin
-                                <i className="fas fa-crown tiara"/>
-                                <br/>
-                                <small className="text-muted date">Last updated 3 mins ago</small>
-                            </p>
-                            <h3 className="card-title name-recipes">{card.titulo}</h3>
-                            <p className="card-text p-recipes">{card.descripcion}</p>
-                            <hr className={"line-space"}/>
-                            <div className="likes">
-                                <small className="text-muted">20 Views</small>
-                                <small className="text-muted">Write a comment</small>
-                                <i className="far fa-heart heart"/>
+                        <div>
+                            <div className="card-body">
+                                <p className={"admin"}>Admin
+                                    <i className="fas fa-crown tiara"/>
+                                    <br/>
+                                    <small className="text-muted date">Last updated 3 mins ago</small>
+                                </p>
+                                <h3 className="card-title name-recipes">{card.titulo}</h3>
+                                <p className="card-text p-recipes">{card.descripcion}</p>
+                                <hr className={"line-space"}/>
+                                <div className="likes">
+                                    <small className="text-muted">20 Views</small>
+                                    <small className="text-muted">Write a comment</small>
+                                    <i className="far fa-heart heart"/>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>)}
-        </div>
+            </Col>)}
+
+
+        </Row>
         <div className={"page-container"}>
             <Pagination>
                 <Pagination.First/>

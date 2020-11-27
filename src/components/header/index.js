@@ -6,8 +6,10 @@ import "./index.css";
 
 function Header() {
     return   <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+        <div className={"menu-btn"}>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" className={"menu-btn-burger"}/>
+        </div>
 
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
             <Nav>
                 <Nav.Link href="#home">INICIO</Nav.Link>

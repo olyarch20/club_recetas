@@ -2,7 +2,10 @@
 .contact-c {
     background-color: #f8f8f8;
 }
-
+.contact {
+    display: flex;
+    justify-content: center;
+}
 .title-contact {
     text-align: left;
     margin-top: 20px;
@@ -12,6 +15,7 @@
 .p-contact {
     color: #84947B;
     font-size: 18px;
+    font-weight: bold;
 }
 .button-contact {
     background-color: #84947B !important;
@@ -31,27 +35,40 @@
     margin-left: 15px;
     margin-right: 15px;
 }
-.img-contact {
-    height: 400px;
-    width: 90%;
+.img-container {
+    height: 750px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(../../assets/img/notepad-3316997_640.jpg);
-}
-.contact-container {
-    display: flex;
-}
-.form-container {
-    max-width: 80%;
-    display: inline-block;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    border: 1px solid #84947B;
-    padding: 20px;
-    background-color: white;
-}
-.img-container {
+    background-position: center;
+    background-attachment: fixed;
+    max-width: 100%;
+    background-image: url(../../assets/img/notepad-3316997_1280.jpg);
     display: flex;
     justify-content: center;
     align-items: center;
+
+}
+/*.contact-container {*/
+    /*display: flex;*/
+/*}*/
+.form-container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid #84947B;
+    border-radius: 8px;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+.form-control {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #84947B;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: white;
+}
+.form-control .placeholder {
+    color: white;
 }

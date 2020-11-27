@@ -2,6 +2,9 @@ section {
     background-color: #f8f8f8;
     height: 100%;
 }
+.card {
+    flex-direction: row;
+}
 
 .card-container {
     max-width: 100%;
@@ -101,4 +104,19 @@ section {
     color: white;
     background-color: #84947B;
     border-color: #84947B;
+}
+
+
+
+
+@media only screen and (min-width: 280px) and (max-width: 767px) {
+
+    .card-c {
+       flex-wrap: nowrap;
+    }
+
+    .page-container {
+        display: none;
+    }
+
 }

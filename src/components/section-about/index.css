@@ -11,6 +11,7 @@ section {
 }
 .about-container {
     display: flex;
+    justify-content: center;
 }
 .title-about {
     text-align: left;
