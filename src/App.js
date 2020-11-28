@@ -11,6 +11,7 @@ import {Recipes} from "./components/section-recipes";
 import {About} from "./components/section-about";
 import {Contact} from "./components/section-contact";
 import {Footer} from "./components/footer";
+import {BotonFlotante} from "./components/button";
 
 function App() {
 
@@ -39,6 +40,14 @@ function App() {
     });
 
 
+    $(".botonF1").hover(function () {
+        $(".btn").addClass("animacionVer");
+    });
+    $(".contenedor").mouseleave(function () {
+        $(".btn").removeClass("animacionVer");
+    });
+
+
 
 
   return (
@@ -49,6 +58,7 @@ function App() {
         <About/>
         <Contact/>
         <Footer/>
+        <BotonFlotante/>
     </div>
   );
 }

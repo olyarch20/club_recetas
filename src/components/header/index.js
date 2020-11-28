@@ -14,11 +14,11 @@ function Header() {
             <Nav>
                 <Nav.Link href="#home">INICIO</Nav.Link>
                 <NavDropdown title="RECETAS" id="basic-nav-dropdown">
-                    <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+                    <NavDropdown.Item href="#action/3.1">Postres</NavDropdown.Item>
+                    <NavDropdown.Item href="#action/3.2">Comida navideña</NavDropdown.Item>
+                    <NavDropdown.Item href="#action/3.3">Comida casera</NavDropdown.Item>
                     <NavDropdown.Divider />
-                    <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+                    <NavDropdown.Item href="#action/3.4">Comida para fiestas</NavDropdown.Item>
                 </NavDropdown>
                 <Nav.Link href="#about">SOBRE NOSOTROS</Nav.Link>
                 <Nav.Link href="#contact">CONTACTO</Nav.Link>

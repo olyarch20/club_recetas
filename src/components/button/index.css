@@ -1,0 +1,86 @@
+
+.contenedor {
+    width: 90px;
+    height: 240px;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
+
+.botonF1 {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background: #00bb2d;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    border: none;
+    outline: none;
+    color: #FFF;
+    font-size: 36px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    transition: .3s;
+    cursor: pointer;
+}
+
+.botonF1 a {
+    color: #FFFFFF;
+}
+
+span {
+    transition: .5s;
+}
+
+.botonF1:hover span {
+    transform: rotate(360deg);
+}
+
+.botonF1:active {
+    transform: scale(1.1);
+}
+
+.btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: none;
+    color: #FFF;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    font-size: 20px;
+    outline: none;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin-right: 26px;
+    transform: scale(0);
+
+}
+
+.botonF2 {
+    background: #3b5998;
+    margin-bottom: 85px;
+    transition: 0.5s;
+}
+
+.botonF2 a {
+    color: #FFFFFF;
+
+}
+
+.botonF3 {
+    background: #e4405f;
+    margin-bottom: 130px;
+    transition: 0.7s;
+}
+
+.botonF3 a {
+    color: #FFFFFF;
+
+}
+
+.animacionVer {
+    transform: scale(1);
+}
