@@ -8,10 +8,11 @@ function About() {
     return <div>
         <h2 className={"title"}><i className="fas fa-mitten"/> SOBRE MI</h2>
         <hr className={"line"}/>
-        <Row className={"about-container"}>
-            <Col md={5}>
-                <div  className="img-cocina"/>
-            </Col>
+        <div >
+            <Row className={"about-container"}>
+                <Col md={5}>
+                    <div  className="img-cocina img-fluid"/>
+                </Col>
                 <Col md={5}>
                     <h2 className={"title-about"}>
                         Soy teresa<br/>
@@ -29,7 +30,9 @@ function About() {
                         cómo se le ocurrió la idea para su negocio y qué lo hace diferente de sus competidores.
                         Haga que su empresa se destaque y muestre a sus visitantes quién es usted.</p>
                 </Col>
-        </Row>
+            </Row>
+        </div>
+
     </div>
 
 }
